@@ -36,10 +36,10 @@ Topic: `polimi/iot/#`
 - `-r`
 
 #### Last Will ex
-- Install python3: `sudo apt-get install python3-pip`
-- Install paho mqtt package: `python3 -m pip install paho-mqtt`
-- Start a subscriber: `mosquitto_sub -t <hostname> -t <topic>`
-- Run `python3 last_will.py` and kill it
+1. Install python3: `sudo apt-get install python3-pip`
+2. Install paho mqtt package: `python3 -m pip install paho-mqtt`
+3. Start a subscriber: `mosquitto_sub -t <hostname> -t <topic>`
+4. Run `python3 last_will.py` and kill it
 
 - Non working will message: `mosquitto_pub -h localhost -t room2/bulb -m ON --will-payload "error, bulb disconnected" --will-topic room2/bulb/error --will-qos 2`
 
