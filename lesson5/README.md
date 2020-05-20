@@ -26,9 +26,9 @@
 ## [Node-Red](https://nodered.org/docs/getting-started/local)
 
 1. Start node-red typing `node-red` on the terminal of your VM
-2. Open the browser of the VM at: [http://localhost:1880]()
+2. Open the browser of the VM at: http://localhost:1880
 - Hello World example
 - Random example
 - Memory usage: use the command `free -m | awk 'FNR==2 {print $4 "\n" $3}'`
-- Memory usage w/ dashboard -> dashboard available at [http://localhost:1880/ui]()
+- Memory usage w/ dashboard -> dashboard available at http://localhost:1880/ui
 - Data processing: import in node-red the `node-red-alert_template`
