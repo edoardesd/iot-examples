@@ -9,7 +9,7 @@
   + Get last N values
   + Download CSV
 
-3. Update and read via MQTT ([https://www.mathworks.com/help/thingspeak/mqtt-api.html](docs))
+3. Update and read via MQTT ([docs](https://www.mathworks.com/help/thingspeak/mqtt-api.html))
   + Publish: `mosquitto_pub -h 'mqtt.thingspeak.com' -p '1883' -t 'channels/<channelID>/publish/<API_KEY>' -m 'field1=<VALUE>&field2=<VALUE>&status=MQTTPUBLISH'`
   + Subcribe: `mosquitto_sub -h mqtt.thingspeak.com -p 1883 -t channels/<channelID>/subscribe/fields/field1 -u <user.email> -P <MQTT_KEY>`
   
@@ -19,9 +19,9 @@
 - `./thingspeak_memory.sh`
 
 #### Interesting channels
-- [https://thingspeak.com/channels/34247](Solar House)
-- [https://thingspeak.com/channels/895691](Weather station)
-- [My channels](https://bit.ly/2xQdEwx )
+- [Solar House](https://thingspeak.com/channels/34247)
+- [Weather station](https://thingspeak.com/channels/895691)
+- [My channels](https://bit.ly/2xQdEwx)
 
 ## [Node-Red](https://nodered.org/docs/getting-started/local)
 
