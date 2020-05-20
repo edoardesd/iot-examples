@@ -32,3 +32,7 @@
 - [Memory usage](https://github.com/edoardesd/iot-examples/blob/master/lesson5/node-red-exec-thingspeak): use the command `free -m | awk 'FNR==2 {print $4 "\n" $3}'`
 - [Memory usage w/ dashboard](https://github.com/edoardesd/iot-examples/blob/master/lesson5/exec-dashboard-thingspeak) -> dashboard available at http://localhost:1880/ui
 - [Data processing](https://github.com/edoardesd/iot-examples/blob/master/lesson5/node-red-alert_template)
+
+## Homework
+- Deadline: May, 24th @ 23:49
+- [Traffic file](https://github.com/edoardesd/iot-examples/blob/master/lesson5/traffic.csv)
