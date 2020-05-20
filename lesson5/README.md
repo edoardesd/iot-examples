@@ -28,7 +28,7 @@
 1. Start node-red typing `node-red` on the terminal of your VM
 2. Open the browser of the VM at: http://localhost:1880
 - Hello World example
-- Random example
-- Memory usage: use the command `free -m | awk 'FNR==2 {print $4 "\n" $3}'`
-- Memory usage w/ dashboard -> dashboard available at http://localhost:1880/ui
-- Data processing: import in node-red the `node-red-alert_template`
+- [Random example](https://github.com/edoardesd/iot-examples/blob/master/lesson5/random-number)
+- [Memory usage](https://github.com/edoardesd/iot-examples/blob/master/lesson5/node-red-exec-thingspeak): use the command `free -m | awk 'FNR==2 {print $4 "\n" $3}'`
+- [Memory usage w/ dashboard](https://github.com/edoardesd/iot-examples/blob/master/lesson5/exec-dashboard-thingspeak) -> dashboard available at http://localhost:1880/ui
+- [Data processing](https://github.com/edoardesd/iot-examples/blob/master/lesson5/node-red-alert_template)
